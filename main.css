@@ -1,8 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10%;
+}
+
 body {
+    height: 100vh;
+    box-sizing: border-box;
+    
     background-color: black;
     color: rgb(220, 225, 225);
 } 
 
-strong {
+.titulo_destaque {
     color: rgb(134, 37, 183);
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 40px;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
 }
