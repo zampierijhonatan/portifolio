@@ -4,11 +4,18 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Portifólio</title>
-    <link rel='stylesheet' href='main.css'>
+    <link rel='stylesheet' href='styles/main.css'>
 </head>
 <body>
 
-    <header></header>
+    <header class="cabecalho">
+
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+
+    </header>
 
 
     <main class="apresentacao">
@@ -19,9 +26,16 @@
 
             <p class="apresentacao__conteudo__texto">Olá! Sou Jhonatan Zampieri, desenvolvedor Full-stack com especialidade em Python, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
 
+            
+
             <div class="apresentacao__links">
-                <a class="apresentacao__links_social" href="https://www.instagram.com/jho_zampieri/" alt="Botão do instagram">Instagram</a>
-                <a class="apresentacao__links_social" href="https://github.com/zampierijhonatan" alt="Botão do GitHub">GitHub</a>
+                <h2 class="apresentacao__links__sub">Acesse minhas redes!</h2>
+
+                <a class="apresentacao__links_social" href="https://github.com/zampierijhonatan" alt="Botão do GitHub"> <img src="assets/github.png" alt="rede GitHub imagem">GitHub</a>
+
+                <a class="apresentacao__links_social" href="https://www.linkedin.com/in/jhonatan-zampieri-b2779726b/" alt="rede Botão do Linkedin"> <img src="assets/linkedin.png" alt="Linkedin imagem">Linkedin</a>
+
+                <a class="apresentacao__links_social" href="https://www.instagram.com/jho_zampieri/" alt="Botão do instagram"> <img src="assets/instagram.png" alt="rede Instagram imagem">Instagram</a>
             </div>
 
         </section>
@@ -37,7 +51,9 @@
     </main>
 
 
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Jhonatan</p>
+    </footer>
     
 </body>
 </html>
