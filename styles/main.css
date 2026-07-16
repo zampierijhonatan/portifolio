@@ -127,7 +127,24 @@ body {
     align-items: center;
 }
 
+@media (max-width: 1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
 
+    .apresentacao__conteudo {
+        width: 100%;
+    }
+
+    .cabecalho {
+        padding: 3%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+}
 
 
 
